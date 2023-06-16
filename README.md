@@ -18,6 +18,10 @@
 
 A NodeJS module to shuffle the array's indexes.
 
+> **🔗 Other Edition:**
+>
+> - [Deno](https://github.com/hugoalh-studio/shuffle-array-deno)
+
 ## 📚 Documentation
 
 ### Getting Started
