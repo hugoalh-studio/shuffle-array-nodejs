@@ -29,10 +29,8 @@ import shuffleArray from "@hugoalh/shuffle-array";// Default Import
 
 ### API
 
-#### Function
-
 ```ts
-shuffleArray<T>(item: T[]): T[];
+function shuffleArray<T>(item: T[]): T[];
 ```
 
 ### Example
