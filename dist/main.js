@@ -7,7 +7,7 @@ import { randomInt } from "node:crypto";
  */
 export default function shuffleArray(item) {
     if (!Array.isArray(item)) {
-        throw new TypeError(`Argument \`item\` must be T[]!`);
+        throw new TypeError(`Argument \`item\` must be a unknown[]!`);
     }
     let itemClone = [...item];
     let result = [];
