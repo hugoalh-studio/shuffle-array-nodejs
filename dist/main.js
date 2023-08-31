@@ -9,10 +9,10 @@ export default function shuffleArray(item) {
     if (!Array.isArray(item)) {
         throw new TypeError(`Argument \`item\` is not an Array!`);
     }
-    let itemClone = [...item];
-    let result = [];
+    const itemClone = [...item];
+    const result = [];
     while (itemClone.length > 1) {
-        let index = randomInt(0, itemClone.length);
+        const index = randomInt(0, itemClone.length);
         result.push(itemClone[index]);
         itemClone.splice(index, 1);
     }
