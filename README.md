@@ -1,6 +1,7 @@
 # Shuffle Array (NodeJS)
 
 [⚖️ MIT](./LICENSE.md)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/hugoalh-studio/shuffle-array-nodejs?label=Grade&logo=codefactor&logoColor=ffffff&style=flat-square "CodeFactor Grade")](https://www.codefactor.io/repository/github/hugoalh-studio/shuffle-array-nodejs)
 
 |  | **Heat** | **Release - Latest** | **Release - Pre** |
 |:-:|:-:|:-:|:-:|
@@ -36,7 +37,7 @@ function shuffleArray<T>(item: T[]): T[];
 ### Example
 
 - ```js
-  let chain = [3, 7, 25, 26, 42, 62, 71, 76, 92, 93];
+  const chain = [3, 7, 25, 26, 42, 62, 71, 76, 92, 93];
   
   shuffleArray(chain);
   //=> [62, 93, 26, 42, 25, 7, 76, 71, 3, 92]
