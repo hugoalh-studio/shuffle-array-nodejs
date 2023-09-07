@@ -10,33 +10,30 @@
 
 A NodeJS module to shuffle the array's indexes.
 
-> **🔗 Other Edition:**
->
-> - [Deno](https://github.com/hugoalh-studio/shuffle-array-deno)
+## 📥 Import
 
-## 📓 Documentation
+### NodeJS
 
-### Getting Started
+- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - **[NPM](https://www.npmjs.com/package/@hugoalh/shuffle-array):**
+    ```sh
+    npm install @hugoalh/shuffle-array
+    ```
 
-- NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see file [`package.json`](./package.json) property `exports` for available sub paths.
 
-```sh
-npm install @hugoalh/shuffle-array
-```
+## 🧩 API
 
-```js
-import shuffleArray from "@hugoalh/shuffle-array";// Default Import
-```
+- ```ts
+  function shuffleArray<T>(item: T[]): T[];
+  ```
 
-### API
-
-```ts
-function shuffleArray<T>(item: T[]): T[];
-```
-
-### Example
+## ✍️ Example
 
 - ```js
+  import shuffleArray from "@hugoalh/shuffle-array";
   const chain = [3, 7, 25, 26, 42, 62, 71, 76, 92, 93];
   
   shuffleArray(chain);
@@ -45,3 +42,7 @@ function shuffleArray<T>(item: T[]): T[];
   shuffleArray(chain);
   //=> [42, 3, 26, 62, 93, 7, 76, 25, 92, 71]
   ```
+
+## 🔗 Other Edition
+
+- [Deno](https://github.com/hugoalh-studio/shuffle-array-deno)
