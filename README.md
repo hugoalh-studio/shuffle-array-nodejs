@@ -22,13 +22,15 @@ A NodeJS module to shuffle the array's indexes.
     npm install @hugoalh/shuffle-array
     ```
 
-> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see file [`package.json`](./package.json) property `exports` for available sub paths.
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
 
 ## 🧩 API
 
 - ```ts
   function shuffleArray<T>(item: T[]): T[];
   ```
+
+> **ℹ️ Notice:** Documentation is included inside the script file.
 
 ## ✍️ Example
 
