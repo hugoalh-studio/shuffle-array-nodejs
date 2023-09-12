@@ -10,16 +10,20 @@
 
 A NodeJS module to shuffle the array's indexes.
 
-## 📥 Import
+## 🔰 Begin
 
 ### NodeJS
 
-- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
 - **Require Permission:** *N/A*
 - **Domain/Registry:**
-  - **[NPM](https://www.npmjs.com/package/@hugoalh/shuffle-array):**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/shuffle-array)
     ```sh
     npm install @hugoalh/shuffle-array
+    ```
+    ```js
+    import ... from "@hugoalh/shuffle-array";
     ```
 
 > **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
