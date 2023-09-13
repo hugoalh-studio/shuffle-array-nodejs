@@ -12,6 +12,24 @@ A NodeJS module to shuffle the array's indexes.
 
 ## 🔰 Begin
 
+### Bun
+
+> **🧪 Experimental:** Bun is still under development.
+
+- **Target Version:** ^ v1.0.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/shuffle-array)
+    ```sh
+    bun add @hugoalh/shuffle-array
+    ```
+    ```js
+    import ... from "@hugoalh/shuffle-array[@<Tag>]";
+    ```
+
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
+
 ### NodeJS
 
 - **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
@@ -41,10 +59,10 @@ A NodeJS module to shuffle the array's indexes.
 - ```js
   import shuffleArray from "@hugoalh/shuffle-array";
   const chain = [3, 7, 25, 26, 42, 62, 71, 76, 92, 93];
-  
+
   shuffleArray(chain);
   //=> [62, 93, 26, 42, 25, 7, 76, 71, 3, 92]
-  
+
   shuffleArray(chain);
   //=> [42, 3, 26, 62, 93, 7, 76, 25, 92, 71]
   ```
