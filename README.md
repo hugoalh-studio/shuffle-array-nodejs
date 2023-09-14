@@ -57,7 +57,7 @@ A NodeJS module to shuffle the array's indexes.
 ## ✍️ Example
 
 - ```js
-  import shuffleArray from "@hugoalh/shuffle-array";
+  import { shuffleArray } from "@hugoalh/shuffle-array";
   const chain = [3, 7, 25, 26, 42, 62, 71, 76, 92, 93];
 
   shuffleArray(chain);
