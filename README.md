@@ -22,7 +22,7 @@ A NodeJS module to shuffle the array's indexes.
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/shuffle-array)
     ```sh
-    bun add @hugoalh/shuffle-array
+    bun add @hugoalh/shuffle-array[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/shuffle-array[@<Tag>]";
@@ -38,7 +38,7 @@ A NodeJS module to shuffle the array's indexes.
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/shuffle-array)
     ```sh
-    npm install @hugoalh/shuffle-array
+    npm install @hugoalh/shuffle-array[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/shuffle-array";
